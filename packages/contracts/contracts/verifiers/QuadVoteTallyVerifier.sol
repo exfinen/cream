@@ -19,7 +19,7 @@
 
 // 2019 OKIMS
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.2;
 
 library Pairing {
 
@@ -37,7 +37,7 @@ library Pairing {
     }
 
     /*
-     * @return The negation of p, i.e. p.plus(p.negate()) should be zero. 
+     * @return The negation of p, i.e. p.plus(p.negate()) should be zero.
      */
     function negate(G1Point memory p) internal pure returns (G1Point memory) {
 
@@ -182,7 +182,7 @@ contract QuadVoteTallyVerifier {
         vk.IC[10] = Pairing.G1Point(uint256(15518190687953432387003062517891578505312058773139418878539967958125618581993),uint256(16065981315809280037983187353162106860757537445453473102285770417520261209200));
 
     }
-    
+
     /*
      * @returns Whether the proof is valid given the hardcoded verifying key
      *          above and the public inputs

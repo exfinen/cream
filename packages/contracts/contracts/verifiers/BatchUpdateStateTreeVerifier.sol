@@ -19,7 +19,7 @@
 
 // 2019 OKIMS
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.2;
 
 library Pairing {
 
@@ -37,7 +37,7 @@ library Pairing {
     }
 
     /*
-     * @return The negation of p, i.e. p.plus(p.negate()) should be zero. 
+     * @return The negation of p, i.e. p.plus(p.negate()) should be zero.
      */
     function negate(G1Point memory p) internal pure returns (G1Point memory) {
 
@@ -188,7 +188,7 @@ contract BatchUpdateStateTreeVerifier {
         vk.IC[16] = Pairing.G1Point(uint256(18935555850731155552795430265031373247324257098725703027362652665901430320192),uint256(1775888006637720485341340461002152053616267195555359825542908857465495937716));
 
     }
-    
+
     /*
      * @returns Whether the proof is valid given the hardcoded verifying key
      *          above and the public inputs

@@ -22,7 +22,7 @@
 // modified for Pairing library contract import
 // by Kazuaki Ishiguro for C.R.E.A.M
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.2;
 
 import "./Pairing.sol";
 
@@ -75,7 +75,7 @@ contract BatchUpdateStateTreeVerifierSmall {
         vk.IC[20] = Pairing.G1Point(uint256(1876399965866804740543527668364407300210858993648033819579101332412569635997),uint256(19990619256484609678830063554269256407087013744540193474689542385972486296683));
 
     }
-    
+
     /*
      * @returns Whether the proof is valid given the hardcoded verifying key
      *          above and the public inputs

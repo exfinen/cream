@@ -1,13 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-      "outDir": "./build",
+    "outDir": "./build",
     "skipLibCheck": true
   },
-  "include": [
-      "./ts"
-  ],
-  "exclude": [
-    "./ts/__tests__/*.ts"
-  ]
+  "include": ["./ts"],
+  "exclude": ["./ts/__tests__/*.ts"]
 }

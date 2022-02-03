@@ -12,7 +12,7 @@
 // and modified for manual verifier contract creation
 // by Kazuaki Ishiguro for C.R.E.A.M
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.2;
 
 import "./Pairing.sol";
 

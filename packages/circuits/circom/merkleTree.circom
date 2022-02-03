@@ -1,5 +1,5 @@
-include "../../../node_modules/circomlib/circuits/mux1.circom";
-include "../../../node_modules/circomlib/circuits/poseidon.circom";
+include "../node_modules/circomlib/circuits/mux1.circom";
+include "../node_modules/circomlib/circuits/poseidon.circom";
 
 // TODO: remove param
 // Computes MiMC([left, right])

@@ -22,7 +22,7 @@
 // modified for Pairing library contract import
 // by Kazuaki Ishiguro for C.R.E.A.M
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.2;
 
 import "./Pairing.sol";
 
